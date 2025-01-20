@@ -5,9 +5,9 @@
   <view>
     <start row="0" column="0" state="0"/>
     <zoom default="1.000" centerx="0.00000" centery="0.00000" min="1" max="2.000"/>
-    <viewer imagescaling="1" backgroundcolor="0xffffff" background="1"/>
+    <viewer imagescaling="3" backgroundcolor="0xffffff" background="1"/>
   </view>
-  <autorotate speed="0.010" delay="1000.00" start="0"/>
+  <autorotate speed="0.010" onlyonce="1" delay="1000.00" start="0"/>
   <userdata title="A-Frame 2.2" datetime="01/15/2025" description="Exterior facade design-visualization " copyright="DEN" author="Den-outdoors" source="" comment="" info=""/>
   <qthotspots enabled="1" reuse="24">
     <label width="80" backgroundalpha="1.000" enabled="1" height="0" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1.000" borderradius="1" wordwrap="1" textalpha="1.000"/>
@@ -15,12 +15,26 @@
   <hotspots>
     <label width="80" backgroundalpha="1.000" enabled="1" height="0" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1.000" borderradius="1" wordwrap="1" textalpha="1.000"/>
     <polystyle mode="3" backgroundalpha="0.251" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1.000"/>
-    <hotspot title="Vertical siding" target="" skinid="02" url="" id="Point01" reuse="0">
-      <location x="0.38125" y="0.348148" row="0" column="0" state="0"/>
-      <location x="0.439583" y="0.337037" row="0" column="14" state="0"/>
+    <hotspot title="Main Entrance" target="" skinid="02" url="" id="Point01" reuse="0">
+      <location x="0.558854" y="0.611111" row="0" column="19" state="0"/>
     </hotspot>
-    <hotspot title="Horizontal Hardie Planks" target="" skinid="02" url="" id="Point02" reuse="0">
-      <location x="0.441667" y="0.340741" row="0" column="13" state="0"/>
+    <hotspot title="Main Entrance" target="" skinid="02" url="" id="Point02" reuse="0">
+      <location x="0.509896" y="0.616667" row="0" column="20" state="0"/>
+      <location x="0.485938" y="0.616667" row="0" column="21" state="0"/>
+    </hotspot>
+    <hotspot title="Main Entrance" target="" skinid="02" url="" id="Point03" reuse="0"/>
+    <hotspot title="Main Entrance" target="" skinid="02" url="" id="Point04" reuse="0">
+      <location x="0.440625" y="0.611111" row="0" column="22" state="0"/>
+      <location x="0.405729" y="0.611111" row="0" column="23" state="0"/>
+    </hotspot>
+    <hotspot title="Show Construction" target="_blank" skinid="" url="https://a-frame2-2-fab.vercel.app/" id="Point08" reuse="0">
+      <location x="0.548437" y="0.110185" row="0" column="28" state="0"/>
+      <location x="0.59375" y="0.12963" row="0" column="27" state="0"/>
+      <location x="0.621354" y="0.153704" row="0" column="26" state="0"/>
+      <location x="0.503125" y="0.0861111" row="0" column="0" state="0"/>
+      <location x="0.451042" y="0.0981481" row="0" column="1" state="0"/>
+      <location x="0.413021" y="0.135185" row="0" column="2" state="0"/>
+      <location x="0.378125" y="0.160185" row="0" column="3" state="0"/>
     </hotspot>
   </hotspots>
 </vrobject>
